@@ -218,6 +218,16 @@ app.get('/api/products/:slug', (req, res) => {
         })),
     });
 });
+// Sản phẩm liên quan theo slug sản phẩm
+app.get('/api/productsrelated/:slug', (req, res) => { 
+    const { slug } = req.params;
+    const product = products.find(p => p.slug === slug);
+    if (!product) {
+        return res.status(404).json({ message: "Product not found" });
+    }
+    const relatedProducts = products.filter(p => p.categoryId === product.categoryId && p.slug !== slug);
+    res.json(relatedProducts);
+});
 app.listen(port, () => {
     console.log(`Server listening at <http://localhost>:${port}`);
 
