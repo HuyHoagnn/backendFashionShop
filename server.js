@@ -218,15 +218,31 @@ app.get('/api/products/:slug', (req, res) => {
         })),
     });
 });
-// Sản phẩm liên quan theo slug sản phẩm
+// Sản phẩm liên quan theo slug sản phẩm có chứa variant
 app.get('/api/productsrelated/:slug', (req, res) => { 
     const { slug } = req.params;
     const product = products.find(p => p.slug === slug);
     if (!product) {
         return res.status(404).json({ message: "Product not found" });
     }
-    const relatedProducts = products.filter(p => p.categoryId === product.categoryId && p.slug !== slug);
-    res.json(relatedProducts);
+    const category = categories.find(cat => cat.id === product.categoryId);
+    const relatedProducts = products.filter(p => p.categoryId === product.categoryId && p.id !== product.id);
+    const relatedProductsWithVariants = relatedProducts.map(relProduct => {
+        const relCategory = categories.find(cat => cat.id === relProduct.categoryId);
+        const relVariants = variants.filter(variant => variant.productId === relProduct.id);
+        return {
+            ...relProduct,
+            category: relCategory ? { id: relCategory.id, name: relCategory.name, slug: relCategory.slug } : null,
+            variants: relVariants.map(variant => ({
+                id: variant.id,
+                size: variant.size,
+                color: variant.color,
+                price: variant.price,
+                stock: variant.stock,
+            })),
+        };
+    });
+    res.json(relatedProductsWithVariants);
 });
 app.listen(port, () => {
     console.log(`Server listening at <http://localhost>:${port}`);
