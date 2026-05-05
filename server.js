@@ -197,7 +197,27 @@ app.get('/api/products', (req, res) => {
     });
     res.json(allProducts);
 });
-
+// Lấy chi tiết sản phẩm theo slug
+app.get('/api/products/:slug', (req, res) => {
+    const { slug } = req.params;
+    const product = products.find(p => p.slug === slug);
+    if (!product) {
+        return res.status(404).json({ message: "Product not found" });
+    }
+    const category = categories.find(cat => cat.id === product.categoryId);
+    const productVariants = variants.filter(variant => variant.productId === product.id);
+    res.json({
+        ...product,
+        category: category ? { id: category.id, name: category.name, slug: category.slug } : null,
+        variants: productVariants.map(variant => ({
+            id: variant.id,
+            size: variant.size,
+            color: variant.color,
+            price: variant.price,
+            stock: variant.stock,
+        })),
+    });
+});
 app.listen(port, () => {
     console.log(`Server listening at <http://localhost>:${port}`);
 
