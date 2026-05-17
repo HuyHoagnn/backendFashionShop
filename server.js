@@ -1,3 +1,4 @@
+const jwt = require('jsonwebtoken');
 const express = require('express');
 const cors = require('cors')
 const app = express();
@@ -178,6 +179,28 @@ let products = [
     thumbnail: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9",
   },
 ];
+
+let users = [
+  {
+    id: "1",
+    name: "Nguyễn Văn A",
+    email: "a@gmail.com",
+    password: "123456",
+    role: "customer"
+  },
+  {
+    id: "2",
+    name: "Nguyễn Văn B",
+    email: "b@gmail.com",
+    password: "123456",
+    role: "admin"
+  }
+];
+// Lấy tất cả user 
+app.get('/api/users', (req, res) => {
+    res.json(users);
+});
+
 // Lấy tất cả sản phẩm kèm biến thể và danh mục
 app.get('/api/products', (req, res) => {
     const allProducts = products.map(product => {
@@ -244,7 +267,48 @@ app.get('/api/productsrelated/:slug', (req, res) => {
     });
     res.json(relatedProductsWithVariants);
 });
+// Chức năng đăng ký 
+app.post('/api/register', (req, res) => {
+    const { name, email, password } = req.body;
+    if (!name || !email || !password) {
+        return res.status(400).json({ message: "Name, email and password are required" });
+    }
+
+    const existingUser = users.find(user => user.email === email);
+    if (existingUser) {
+        return res.status(400).json({ message: "Email already exists" });
+    }
+
+    const newUser = {
+        id: String(users.length + 1),
+        name,
+        email,
+        password,
+        role: "customer"
+    };
+    users.push(newUser);
+
+    res.status(201).json({ message: "User registered successfully" });
+});
+// Chức năng đăng nhập
+app.post('/api/login', (req, res) => {
+    const { email, password } = req.body;
+    if (!email || !password) {
+        return res.status(400).json({ message: "Email and password are required" });
+    }
+    const user = users.find(u => u.email === email && u.password === password);
+    if (!user) {
+        return res.status(401).json({ message: "Invalid email or password" });
+    }
+    const token = jwt.sign({ id: user.id, name: user.name, email: user.email, role: user.role }, 'your_jwt_secret_key', { expiresIn: '1h' });
+    res.json({ message: "Login successful", token });
+});
+
+
+
+
 app.listen(port, () => {
     console.log(`Server listening at <http://localhost>:${port}`);
 
 })
+
