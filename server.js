@@ -30,51 +30,75 @@ let categories = [
 let variants = [
   // ===== P1 =====
   { id: "v1", productId: "p1", size: "S", color: "Trắng", price: 179000, stock: 10 },
-  { id: "v2", productId: "p1", size: "M", color: "Đen", price: 199000, stock: 12 },
+  { id: "v2", productId: "p1", size: "M", color: "Trắng", price: 179000, stock: 10 },
+  { id: "v3", productId: "p1", size: "S", color: "Đen", price: 199000, stock: 12 },
+  { id: "v4", productId: "p1", size: "M", color: "Đen", price: 199000, stock: 12 },
 
   // ===== P2 =====
-  { id: "v3", productId: "p2", size: "M", color: "Trắng", price: 259000, stock: 8 },
-  { id: "v4", productId: "p2", size: "L", color: "Xanh", price: 279000, stock: 6 },
+  { id: "v5", productId: "p2", size: "S", color: "Trắng", price: 259000, stock: 8 },
+  { id: "v6", productId: "p2", size: "M", color: "Trắng", price: 259000, stock: 8 },
+  { id: "v7", productId: "p2", size: "S", color: "Xanh", price: 279000, stock: 6 },
+  { id: "v8", productId: "p2", size: "M", color: "Xanh", price: 279000, stock: 6 },
 
   // ===== P3 =====
-  { id: "v5", productId: "p3", size: "30", color: "Xanh đậm", price: 499000, stock: 7 },
-  { id: "v6", productId: "p3", size: "32", color: "Xanh nhạt", price: 519000, stock: 5 },
+  { id: "v9", productId: "p3", size: "30", color: "Xanh đậm", price: 499000, stock: 7 },
+  { id: "v10", productId: "p3", size: "32", color: "Xanh đậm", price: 499000, stock: 5 },
+  { id: "v11", productId: "p3", size: "30", color: "Xanh nhạt", price: 519000, stock: 7 },
+  { id: "v12", productId: "p3", size: "32", color: "Xanh nhạt", price: 519000, stock: 5 },
 
   // ===== P4 =====
-  { id: "v7", productId: "p4", size: "M", color: "Xám", price: 379000, stock: 6 },
-  { id: "v8", productId: "p4", size: "L", color: "Đen", price: 399000, stock: 4 },
+  { id: "v13", productId: "p4", size: "M", color: "Xám", price: 379000, stock: 6 },
+  { id: "v14", productId: "p4", size: "L", color: "Xám", price: 379000, stock: 4 },
+  { id: "v15", productId: "p4", size: "M", color: "Đen", price: 399000, stock: 6 },
+  { id: "v16", productId: "p4", size: "L", color: "Đen", price: 399000, stock: 4 },
 
   // ===== P5 =====
-  { id: "v9", productId: "p5", size: "S", color: "Hồng", price: 189000, stock: 10 },
-  { id: "v10", productId: "p5", size: "M", color: "Trắng", price: 199000, stock: 8 },
+  { id: "v17", productId: "p5", size: "S", color: "Hồng", price: 189000, stock: 10 },
+  { id: "v18", productId: "p5", size: "M", color: "Hồng", price: 189000, stock: 8 },
+  { id: "v19", productId: "p5", size: "S", color: "Trắng", price: 199000, stock: 10 },
+  { id: "v20", productId: "p5", size: "M", color: "Trắng", price: 199000, stock: 8 },
 
   // ===== P6 =====
-  { id: "v11", productId: "p6", size: "S", color: "Đỏ", price: 349000, stock: 5 },
-  { id: "v12", productId: "p6", size: "M", color: "Vàng", price: 369000, stock: 4 },
+  { id: "v21", productId: "p6", size: "S", color: "Đỏ", price: 349000, stock: 5 },
+  { id: "v22", productId: "p6", size: "M", color: "Đỏ", price: 349000, stock: 4 },
+  { id: "v23", productId: "p6", size: "S", color: "Vàng", price: 369000, stock: 5 },
+  { id: "v24", productId: "p6", size: "M", color: "Vàng", price: 369000, stock: 4 },
 
   // ===== P7 =====
-  { id: "v13", productId: "p7", size: "M", color: "Trắng", price: 279000, stock: 6 },
-  { id: "v14", productId: "p7", size: "L", color: "Be", price: 299000, stock: 5 },
+  { id: "v25", productId: "p7", size: "M", color: "Trắng", price: 279000, stock: 6 },
+  { id: "v26", productId: "p7", size: "L", color: "Trắng", price: 279000, stock: 5 },
+  { id: "v27", productId: "p7", size: "M", color: "Be", price: 299000, stock: 6 },
+  { id: "v28", productId: "p7", size: "L", color: "Be", price: 299000, stock: 5 },
 
   // ===== P8 =====
-  { id: "v15", productId: "p8", size: "27", color: "Xanh", price: 459000, stock: 7 },
-  { id: "v16", productId: "p8", size: "28", color: "Đen", price: 479000, stock: 6 },
+  { id: "v29", productId: "p8", size: "27", color: "Xanh", price: 459000, stock: 7 },
+  { id: "v30", productId: "p8", size: "28", color: "Xanh", price: 459000, stock: 6 },
+  { id: "v31", productId: "p8", size: "27", color: "Đen", price: 479000, stock: 7 },
+  { id: "v32", productId: "p8", size: "28", color: "Đen", price: 479000, stock: 6 },
 
   // ===== P9 =====
-  { id: "v17", productId: "p9", size: "XS", color: "Vàng", price: 129000, stock: 10 },
-  { id: "v18", productId: "p9", size: "S", color: "Xanh", price: 139000, stock: 9 },
+  { id: "v33", productId: "p9", size: "XS", color: "Vàng", price: 129000, stock: 10 },
+  { id: "v34", productId: "p9", size: "S", color: "Vàng", price: 129000, stock: 9 },
+  { id: "v35", productId: "p9", size: "XS", color: "Xanh", price: 139000, stock: 10 },
+  { id: "v36", productId: "p9", size: "S", color: "Xanh", price: 139000, stock: 9 },
 
   // ===== P10 =====
-  { id: "v19", productId: "p10", size: "S", color: "Đỏ", price: 299000, stock: 6 },
-  { id: "v20", productId: "p10", size: "M", color: "Xanh", price: 319000, stock: 5 },
+  { id: "v37", productId: "p10", size: "S", color: "Đỏ", price: 299000, stock: 6 },
+  { id: "v38", productId: "p10", size: "M", color: "Đỏ", price: 299000, stock: 5 },
+  { id: "v39", productId: "p10", size: "S", color: "Xanh", price: 319000, stock: 6 },
+  { id: "v40", productId: "p10", size: "M", color: "Xanh", price: 319000, stock: 5 },
 
   // ===== P11 =====
-  { id: "v21", productId: "p11", size: "S", color: "Cam", price: 159000, stock: 8 },
-  { id: "v22", productId: "p11", size: "M", color: "Xám", price: 169000, stock: 7 },
+  { id: "v41", productId: "p11", size: "S", color: "Cam", price: 159000, stock: 8 },
+  { id: "v42", productId: "p11", size: "M", color: "Cam", price: 159000, stock: 7 },
+  { id: "v43", productId: "p11", size: "S", color: "Xám", price: 169000, stock: 8 },
+  { id: "v44", productId: "p11", size: "M", color: "Xám", price: 169000, stock: 7 },
 
   // ===== P12 =====
-  { id: "v23", productId: "p12", size: "S", color: "Hồng", price: 249000, stock: 6 },
-  { id: "v24", productId: "p12", size: "M", color: "Tím", price: 269000, stock: 5 },
+  { id: "v45", productId: "p12", size: "S", color: "Hồng", price: 249000, stock: 6 },
+  { id: "v46", productId: "p12", size: "M", color: "Hồng", price: 249000, stock: 5 },
+  { id: "v47", productId: "p12", size: "S", color: "Tím", price: 269000, stock: 6 },
+  { id: "v48", productId: "p12", size: "M", color: "Tím", price: 269000, stock: 5 },
 ];
 let products = [
   // ===== NAM =====
