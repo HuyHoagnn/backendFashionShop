@@ -122,6 +122,7 @@ let products = [
     {
         id: "p1",
         name: "Áo thun nam basic",
+        hot : true,
         slug: "ao-thun-nam-basic",
         description: "Áo thun nam chất liệu cotton 100%, mềm mại.",
         categoryId: "c1",
@@ -185,6 +186,7 @@ let products = [
     {
         id: "p6",
         name: "Áo thun nữ",
+        hot : true,
         slug: "ao-thun-nu",
         categoryId: "c2",
         thumbnail: "https://images.unsplash.com/photo-1520975916090-3105956dac38",
@@ -246,6 +248,7 @@ let products = [
     {
         id: "p11",
         name: "Áo thun trẻ em",
+        hot : true,
         slug: "ao-thun-tre-em",
         categoryId: "c3",
         thumbnail: "https://images.unsplash.com/photo-1519681393784-d120267933ba",
@@ -294,6 +297,7 @@ let products = [
     {
         id: "p15",
         name: "Set Bé Trai Summer",
+        hot : true,
         slug: "set-be-trai-summer",
         categoryId: "c3",
         thumbnail: "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea",
