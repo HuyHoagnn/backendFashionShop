@@ -491,11 +491,6 @@ app.get('/api/payments', (req, res) => {
     res.json(payments);
 });
 
-app.listen(port, () => {
-    console.log(`Server listening at <http://localhost>:${port}`);
-
-})
-
 // Tạo đơn hàng mới 
 app.post('/api/orders', (req, res) => {
     const { userId, name, phone, address, items, paymentMethod } = req.body;
@@ -536,3 +531,15 @@ app.post('/api/orders', (req, res) => {
     }
     res.status(201).json({ message: "Order created successfully", orderId: newOrder.id });
 });
+
+// Lấy đơn hàng theo userId
+app.get('/api/orders/:userId', (req, res) => {
+    const { userId } = req.params;
+    const userOrders = orders.filter(order => order.userId === userId);
+    res.json(userOrders);
+});
+
+app.listen(port, () => {
+    console.log(`Server listening at <http://localhost>:${port}`);
+
+})
