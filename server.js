@@ -314,14 +314,49 @@ let users = [
         name: "Nguyễn Văn A",
         email: "a@gmail.com",
         password: "123456",
-        role: "customer"
+        role: "khách hàng"
     },
     {
         id: "2",
         name: "Nguyễn Văn B",
         email: "b@gmail.com",
         password: "123456",
-        role: "admin"
+        role: "quản trị"
+    }
+];
+
+let payments = [   
+    {
+      "id": "cod",
+      "name": "Thanh toán khi nhận hàng",
+      "type": "cash",
+      "description": "Thanh toán trực tiếp khi nhận hàng"
+    },
+    {
+      "id": "bank",
+      "name": "Chuyển khoản ngân hàng",
+      "type": "bank",
+      "bankName": "MB Bank",
+      "accountNumber": "123456789",
+      "accountName": "NGUYEN VAN A"
+    },
+    {
+      "id": "momo",
+      "name": "Ví MoMo",
+      "type": "qr",
+      "qr": "https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=MOMO-0901234567"
+    },
+    {
+      "id": "zalopay",
+      "name": "ZaloPay",
+      "type": "qr",
+      "qr": "https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=ZALOPAY-0901234567"
+    },
+    {
+      "id": "vnpay",
+      "name": "VNPay",
+      "type": "qr",
+      "qr": "https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=VNPAY-001"
     }
 ];
 // Lấy tất cả user 
@@ -431,9 +466,10 @@ app.post('/api/login', (req, res) => {
     const token = jwt.sign({ id: user.id, name: user.name, email: user.email, role: user.role }, 'your_jwt_secret_key', { expiresIn: '1h' });
     res.json({ message: "Login successful", token });
 });
-
-
-
+// Lấy tất cả phương thức thanh toán
+app.get('/api/payments', (req, res) => {
+    res.json(payments);
+});
 
 app.listen(port, () => {
     console.log(`Server listening at <http://localhost>:${port}`);
