@@ -359,6 +359,26 @@ let payments = [
       "qr": "https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=VNPAY-001"
     }
 ];
+
+let orders = [
+    {
+        id: "o1",
+        userId: "1",
+        name: "Nguyễn Văn A",
+        phone: "0901234567",
+        address: "123 Đường ABC, Quận XYZ, TP. HCM",
+        items: [
+            { productId: "p1", variantId: "v1", quantity: 2 },
+            { productId: "p6", variantId: "v21", quantity: 1 }
+        ],
+        total: 507000,
+        paymentMethod: "cod",
+        status: "pending",
+        createdAt: "2024-06-01T10:00:00Z"
+    },
+];
+
+
 // Lấy tất cả user 
 app.get('/api/users', (req, res) => {
     res.json(users);
@@ -476,3 +496,43 @@ app.listen(port, () => {
 
 })
 
+// Tạo đơn hàng mới 
+app.post('/api/orders', (req, res) => {
+    const { userId, name, phone, address, items, paymentMethod } = req.body;
+    if (!userId || !name || !phone || !address || !items || !paymentMethod) {
+        return res.status(400).json({ message: "All fields are required" });
+    }
+    const user = users.find(u => u.id === userId);
+    if (!user) {
+        return res.status(404).json({ message: "User not found" });
+    }
+    let total = 0;
+    for (const item of items) {
+        const variant = variants.find(v => v.id === item.variantId);
+        if (!variant) {
+            return res.status(404).json({ message: `Variant with id ${item.variantId} not found` });
+        }
+        if (variant.stock < item.quantity) {
+            return res.status(400).json({ message: `Insufficient stock for variant ${item.variantId}` });
+        }
+        total += variant.price * item.quantity;
+    }
+    const newOrder = {
+        id: `o${orders.length + 1}`,
+        userId,
+        name,
+        phone,
+        address,
+        items,
+        total,
+        paymentMethod,
+        status: "pending",
+        createdAt: new Date().toISOString()
+    };
+    orders.push(newOrder);
+    for (const item of items) {
+        const variant = variants.find(v => v.id === item.variantId);
+        variant.stock -= item.quantity;
+    }
+    res.status(201).json({ message: "Order created successfully", orderId: newOrder.id });
+});
