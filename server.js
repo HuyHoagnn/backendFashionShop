@@ -691,10 +691,10 @@ let products = [
             "Chi tiết: Cạp thun co giãn"
         ],
         categoryId: "c3",
-        thumbnail: "https://source.unsplash.com/600x800/?kids,sportswear",
+        thumbnail: "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/45ed24e2030c4bcb828bcdc390c9d004_9366/Bo_DJo_Det_Kim_Tre_Em_ORIGINALS_Be_KV6622_01_laydown.jpg",
         images: [
-            "https://source.unsplash.com/800x1000/?children,sport",
-            "https://source.unsplash.com/800x1000/?kids,activewear"
+            "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/a64ddfd1530e48ea8b50bffe12ad1d9b_9366/Bo_DJo_Det_Kim_Tre_Em_ORIGINALS_Be_KV6622_02_laydown_hover.jpg",
+            "https://assets.adidas.com/images/h_2000,f_auto,q_auto,fl_lossy,c_fill,g_auto/9a7b3c90e86a46e798bb72576b7df129_9366/Bo_DJo_Det_Kim_Tre_Em_ORIGINALS_Be_KV6622_03_laydown.jpg"
         ]
     },
     {
