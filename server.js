@@ -303,10 +303,100 @@ let products = [
             "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/a/p/apv261093_3_.jpg"
         ]
     },
+    {
+        id: "p6",
+        name: "Áo khoác bomber nam",
+        slug: "ao-khoac-bomber-nam",
+        description: "Áo khoác bomber nam mang phong cách trẻ trung và năng động. Chất liệu cao cấp giúp giữ ấm hiệu quả nhưng vẫn đảm bảo sự thoải mái khi vận động. Thiết kế hiện đại dễ phối với quần jean hoặc quần kaki. Phù hợp cho những buổi dạo phố hoặc đi làm.",
+        specs: [
+            "Chất liệu: Polyester cao cấp",
+            "Lót: Vải lót mềm",
+            "Kiểu: Zipper trước",
+            "Phù hợp: Dạo phố hoặc đi làm"
+        ],
+        categoryId: "c1",
+        thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/j/k/jk256181_1_copy.jpg",
+        images: [
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/j/k/jk256181_2_copy.jpg",
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/j/k/jk256181_3_copy.jpg"
+        ]
+    },
+    {
+        id: "p7",
+        name: "Quần kaki nam",
+        slug: "quan-kaki-nam",
+        description: "Quần kaki nam đơn giản, dễ phối và mang lại cảm giác thoải mái khi vận động.",
+        specs: [
+            "Chất liệu: Cotton twill",
+            "Form: Straight fit",
+            "Cạp: Trung bình",
+            "Chi tiết: Túi chéo tiện lợi"
+        ],
+        categoryId: "c1",
+        thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/q/k/qkr256107_3_copy_11zon.jpg",
+        images: [
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/q/k/qkr256107_4_copy_11zon.jpg",
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/q/k/qkr256107_1_copy_11zon.jpg"
+        ]
+    },
+    {
+        id: "p8",
+        name: "Áo ghi lê nam",
+        slug: "ao-gile-nam",
+        description: "Áo ghi lê nam ấm áp, thoải mái với mũ rút dây và túi trước tiện dụng.",
+        specs: [
+            "Chất liệu: Cotton fleece",
+            "Form: Regular fit",
+            "Kiểu: Có mũ, túi kangaroo",
+            "Thích hợp: Mặc hàng ngày và dạo phố"
+        ],
+        categoryId: "c1",
+        thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/a/l/ald241279_11zon.jpg",
+        images: [
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/a/l/ald241279-gr._2.jpg",
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/a/l/ald241279-gr._3.jpg"
+        ]
+    },
+    {
+        id: "p9",
+        name: "Quần short nam",
+        slug: "quan-short-nam",
+        description: "Quần short nam nhẹ nhàng, thoáng mát, thích hợp cho các hoạt động ngoài trời và đi biển.",
+        specs: [
+            "Chất liệu: Cotton pha polyester",
+            "Form: Regular fit",
+            "Tính năng: Thấm hút mồ hôi",
+            "Chi tiết: Túi hai bên"
+        ],
+        categoryId: "c1",
+        thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/s/t/st261018.jpg",
+        images: [
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/s/t/st261018-1.jpg",
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/64b6969b5a751e6599b1523a4893116c/s/t/st261018.4.jpg"
+        ]
+    },
+    {
+        id: "p10",
+        name: "Áo blazer nam",
+        slug: "ao-blazer-nam",
+        description: "Áo blazer nam phom chuẩn, giúp tạo vẻ ngoài thanh lịch cho công sở hoặc dạo phố.",
+        specs: [
+            "Chất liệu: Vải dệt cao cấp",
+            "Form: Slim fit",
+            "Kiểu: Không tay, cúc trước",
+            "Chi tiết: Túi dọc tinh tế"
+        ],
+        categoryId: "c1",
+        thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/b/l/blr2561152_11zon.jpg",
+        images: [
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/b/l/blr2561151_11zon.jpg",
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/b/l/blr2561154_11zon.jpg"
+        ]
+    },
 
     // ===== NỮ =====
     {
-        id: "p6",
+        id: "p11",
         name: "Áo thun nữ",
         hot: true,
         slug: "ao-thun-nu",
@@ -326,7 +416,7 @@ let products = [
     },
 
     {
-        id: "p7",
+        id: "p12",
         name: "Váy mùa hè",
         slug: "vay-mua-he",
         description: "Váy mùa hè nữ nhẹ nhàng, bồng bềnh và tạo cảm giác thoải mái khi mặc trong thời tiết nắng.",
@@ -345,7 +435,7 @@ let products = [
     },
 
     {
-        id: "p8",
+        id: "p13",
         name: "Áo sơ mi nữ",
         slug: "ao-so-mi-nu",
         description: "Áo sơ mi nữ công sở thanh lịch, vải nhẹ và giữ form tốt.",
@@ -364,7 +454,7 @@ let products = [
     },
 
     {
-        id: "p9",
+        id: "p14",
         name: "Quần áo dài",
         slug: "quan-ao-dai",
         description: "Quần dài nữ dáng suông, phối hợp linh hoạt trong trang phục hàng ngày.",
@@ -383,7 +473,7 @@ let products = [
     },
 
     {
-        id: "p10",
+        id: "p15",
         name: "Váy Midi Elegant",
         slug: "vay-midi-elegant",
         description: "Váy midi nữ thanh lịch, phù hợp cho dạo phố hoặc sự kiện nhẹ nhàng.",
@@ -400,10 +490,100 @@ let products = [
             "https://sixdo.vn/images/products/2024/large/_1727239251DSC05416%20copy_1.jpg"
         ]
     },
+    {
+        id: "p16",
+        name: "Chân váy xòe",
+        slug: "chan-vay-xoe",
+        description: "Chân váy xòe dáng bút chì, tôn dáng và phù hợp với môi trường làm việc chuyên nghiệp.",
+        specs: [
+            "Chất liệu: Polyester pha elastane",
+            "Form: Pencil skirt",
+            "Độ dài: Qua gối",
+            "Chi tiết: Dây kéo sau lưng"
+        ],
+        categoryId: "c2",
+        thumbnail: "https://leika.vn/wp-content/uploads/2026/05/Chan-vay-xoe-ly-lech-bong-eo-dinh-cuc-5.jpg.webp",
+        images: [
+            "https://leika.vn/wp-content/uploads/2026/05/Chan-vay-xoe-ly-lech-bong-eo-dinh-cuc-2.jpg",
+            "https://leika.vn/wp-content/uploads/2026/05/Chan-vay-xoe-ly-lech-bong-eo-dinh-cuc-5.jpg"
+        ]
+    },
+    {
+        id: "p17",
+        name: "Áo crop top nữ",
+        slug: "ao-croptop-nu",
+        description: "Áo crop top nữ trẻ trung, dễ phối cùng quần cạp cao hoặc chân váy.",
+        specs: [
+            "Chất liệu: Rayon pha polyester",
+            "Form: Tailored fit",
+            "Kiểu: Hai hàng cúc",
+            "Chi tiết: Túi giả thời trang"
+        ],
+        categoryId: "c2",
+        thumbnail: "https://leika.vn/wp-content/uploads/2026/05/Ao-kieu-CT-croptop-2-hang-cuc-TT-4.jpg.webp",
+        images: [
+            "https://leika.vn/wp-content/uploads/2026/05/Ao-kieu-CT-croptop-2-hang-cuc-TT-2.jpg",
+            "https://leika.vn/wp-content/uploads/2026/05/Ao-kieu-CT-croptop-2-hang-cuc-TT-4.jpg"
+        ]
+    },
+    {
+        id: "p18",
+        name: "Quần jean nữ",
+        slug: "quan-jean-nu",
+        description: "Quần jean nữ co giãn tốt, mang lại sự thoải mái và tôn dáng cho nhiều loại trang phục.",
+        specs: [
+            "Chất liệu: Denim co giãn",
+            "Form: Slim fit",
+            "Cạp: Trung bình",
+            "Chi tiết: Túi jean truyền thống"
+        ],
+        categoryId: "c2",
+        thumbnail: "https://leika.vn/wp-content/uploads/2026/02/So-mi-DT-nep-beo-cach-dieu-5.jpg.webp",
+        images: [
+            "https://leika.vn/wp-content/uploads/2025/12/Ao-khoac-len-tui-op-bo-phoi-ke-1.jpg",
+            "https://leika.vn/wp-content/uploads/2025/12/Ao-khoac-len-det-hoa-tiet-coi-gia-1.jpg"
+        ]
+    },
+    {
+        id: "p19",
+        name: "Áo croptop nữ",
+        slug: "ao-croptop-nu",
+        description: "Áo croptop nữ trẻ trung, dễ phối cùng quần cạp cao hoặc chân váy.",
+        specs: [
+            "Chất liệu: Cotton pha spandex",
+            "Form: Fitted",
+            "Độ dài: Cropped",
+            "Chi tiết: Stretch mềm mại"
+        ],
+        categoryId: "c2",
+        thumbnail: "https://leika.vn/wp-content/uploads/2026/05/Ao-kieu-SN-croptop-op-la-theu-bode-10.jpg.webp",
+        images: [
+            "https://leika.vn/wp-content/uploads/2026/05/Ao-kieu-SN-croptop-op-la-theu-bode-6.jpg",
+            "https://leika.vn/wp-content/uploads/2026/05/Ao-kieu-SN-croptop-op-la-theu-bode-9.jpg"
+        ]
+    },
+    {
+        id: "p20",
+        name: "Đầm dự tiệc nữ",
+        slug: "dam-du-tiec-nu",
+        description: "Đầm dự tiệc nữ sang trọng, thiết kế tinh tế và phù hợp cho các buổi tiệc tối.",
+        specs: [
+            "Chất liệu: Satin pha polyester",
+            "Form: A-line",
+            "Độ dài: Dưới gối",
+            "Chi tiết: Dây kéo ẩn sau"
+        ],
+        categoryId: "c2",
+        thumbnail: "https://leika.vn/wp-content/uploads/2026/02/Dam-party-kem-ao-choang-3.jpg.webp",
+        images: [
+            "https://leika.vn/wp-content/uploads/2026/02/Dam-party-kem-ao-choang-1.jpg",
+            "https://leika.vn/wp-content/uploads/2026/02/Dam-party-kem-ao-choang-2.jpg"
+        ]
+    },
 
     // ===== TRẺ EM =====
     {
-        id: "p11",
+        id: "p21",
         name: "Áo thun trẻ em",
         hot: true,
         slug: "ao-thun-tre-em",
@@ -423,7 +603,7 @@ let products = [
     },
 
     {
-        id: "p12",
+        id: "p22",
         name: "Áo khoác trẻ em",
         slug: "ao-khoac-tre-em",
         description: "Áo khoác trẻ em nhẹ và chống gió, bảo vệ bé trong tiết trời se lạnh.",
@@ -442,7 +622,7 @@ let products = [
     },
 
     {
-        id: "p13",
+        id: "p23",
         name: "Quần short trẻ em",
         slug: "quan-short-tre-em",
         description: "Quần short trẻ em năng động, thiết kế co giãn và dễ vận động.",
@@ -461,7 +641,7 @@ let products = [
     },
 
     {
-        id: "p14",
+        id: "p24",
         name: "Váy bé gái",
         slug: "vay-be-gai",
         description: "Váy bé gái dễ thương, thiết kế nhẹ nhàng và phù hợp cho các bé đi học hoặc đi chơi.",
@@ -480,7 +660,7 @@ let products = [
     },
 
     {
-        id: "p15",
+        id: "p25",
         name: "Áo UT MARIO Movie",
         hot: true,
         slug: "set-be-trai-summer",
@@ -496,188 +676,6 @@ let products = [
         images: [
             "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/483707/sub/goods_483707_sub14_3x4.jpg?width=400",
             "https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/483707/item/vngoods_00_483707_3x4.jpg?width=400"
-        ]
-    },
-
-    {
-        id: "p16",
-        name: "Áo khoác bomber nam",
-        slug: "ao-khoac-bomber-nam",
-        description: "Áo khoác bomber nam mang phong cách trẻ trung và năng động. Chất liệu cao cấp giúp giữ ấm hiệu quả nhưng vẫn đảm bảo sự thoải mái khi vận động. Thiết kế hiện đại dễ phối với quần jean hoặc quần kaki. Phù hợp cho những buổi dạo phố hoặc đi làm.",
-        specs: [
-            "Chất liệu: Polyester cao cấp",
-            "Lót: Vải lót mềm",
-            "Kiểu: Zipper trước",
-            "Phù hợp: Dạo phố hoặc đi làm"
-        ],
-        categoryId: "c1",
-        thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/j/k/jk256181_1_copy.jpg",
-        images: [
-            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/j/k/jk256181_2_copy.jpg",
-            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/j/k/jk256181_3_copy.jpg"
-        ]
-    },
-    {
-        id: "p17",
-        name: "Quần kaki nam",
-        slug: "quan-kaki-nam",
-        description: "Quần kaki nam đơn giản, dễ phối và mang lại cảm giác thoải mái khi vận động.",
-        specs: [
-            "Chất liệu: Cotton twill",
-            "Form: Straight fit",
-            "Cạp: Trung bình",
-            "Chi tiết: Túi chéo tiện lợi"
-        ],
-        categoryId: "c1",
-        thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/q/k/qkr256107_3_copy_11zon.jpg",
-        images: [
-            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/q/k/qkr256107_4_copy_11zon.jpg",
-            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/q/k/qkr256107_1_copy_11zon.jpg"
-        ]
-    },
-    {
-        id: "p18",
-        name: "Áo ghi lê nam",
-        slug: "ao-gile-nam",
-        description: "Áo ghi lê nam ấm áp, thoải mái với mũ rút dây và túi trước tiện dụng.",
-        specs: [
-            "Chất liệu: Cotton fleece",
-            "Form: Regular fit",
-            "Kiểu: Có mũ, túi kangaroo",
-            "Thích hợp: Mặc hàng ngày và dạo phố"
-        ],
-        categoryId: "c1",
-        thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/a/l/ald241279_11zon.jpg",
-        images: [
-            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/a/l/ald241279-gr._2.jpg",
-            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/a/l/ald241279-gr._3.jpg"
-        ]
-    },
-    {
-        id: "p19",
-        name: "Quần short nam",
-        slug: "quan-short-nam",
-        description: "Quần short nam nhẹ nhàng, thoáng mát, thích hợp cho các hoạt động ngoài trời và đi biển.",
-        specs: [
-            "Chất liệu: Cotton pha polyester",
-            "Form: Regular fit",
-            "Tính năng: Thấm hút mồ hôi",
-            "Chi tiết: Túi hai bên"
-        ],
-        categoryId: "c1",
-        thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/s/t/st261018.jpg",
-        images: [
-            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/s/t/st261018-1.jpg",
-            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/64b6969b5a751e6599b1523a4893116c/s/t/st261018.4.jpg"
-        ]
-    },
-    {
-        id: "p20",
-        name: "Áo blazer nam",
-        slug: "ao-blazer-nam",
-        description: "Áo blazer nam phom chuẩn, giúp tạo vẻ ngoài thanh lịch cho công sở hoặc dạo phố.",
-        specs: [
-            "Chất liệu: Vải dệt cao cấp",
-            "Form: Slim fit",
-            "Kiểu: Không tay, cúc trước",
-            "Chi tiết: Túi dọc tinh tế"
-        ],
-        categoryId: "c1",
-        thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/b/l/blr2561152_11zon.jpg",
-        images: [
-            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/b/l/blr2561151_11zon.jpg",
-            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/b/l/blr2561154_11zon.jpg"
-        ]
-    },
-
-    {
-        id: "p21",
-        name: "Chân váy xòe",
-        slug: "chan-vay-xoe",
-        description: "Chân váy xòe dáng bút chì, tôn dáng và phù hợp với môi trường làm việc chuyên nghiệp.",
-        specs: [
-            "Chất liệu: Polyester pha elastane",
-            "Form: Pencil skirt",
-            "Độ dài: Qua gối",
-            "Chi tiết: Dây kéo sau lưng"
-        ],
-        categoryId: "c2",
-        thumbnail: "https://leika.vn/wp-content/uploads/2026/05/Chan-vay-xoe-ly-lech-bong-eo-dinh-cuc-5.jpg.webp",
-        images: [
-            "https://leika.vn/wp-content/uploads/2026/05/Chan-vay-xoe-ly-lech-bong-eo-dinh-cuc-2.jpg",
-            "https://leika.vn/wp-content/uploads/2026/05/Chan-vay-xoe-ly-lech-bong-eo-dinh-cuc-5.jpg"
-        ]
-    },
-    {
-        id: "p22",
-        name: "Áo crop top nữ",
-        slug: "ao-croptop-nu",
-        description: "Áo crop top nữ trẻ trung, dễ phối cùng quần cạp cao hoặc chân váy.",
-        specs: [
-            "Chất liệu: Rayon pha polyester",
-            "Form: Tailored fit",
-            "Kiểu: Hai hàng cúc",
-            "Chi tiết: Túi giả thời trang"
-        ],
-        categoryId: "c2",
-        thumbnail: "https://leika.vn/wp-content/uploads/2026/05/Ao-kieu-CT-croptop-2-hang-cuc-TT-4.jpg.webp",
-        images: [
-            "https://leika.vn/wp-content/uploads/2026/05/Ao-kieu-CT-croptop-2-hang-cuc-TT-2.jpg",
-            "https://leika.vn/wp-content/uploads/2026/05/Ao-kieu-CT-croptop-2-hang-cuc-TT-4.jpg"
-        ]
-    },
-    {
-        id: "p23",
-        name: "Quần jean nữ",
-        slug: "quan-jean-nu",
-        description: "Quần jean nữ co giãn tốt, mang lại sự thoải mái và tôn dáng cho nhiều loại trang phục.",
-        specs: [
-            "Chất liệu: Denim co giãn",
-            "Form: Slim fit",
-            "Cạp: Trung bình",
-            "Chi tiết: Túi jean truyền thống"
-        ],
-        categoryId: "c2",
-        thumbnail: "https://leika.vn/wp-content/uploads/2026/02/So-mi-DT-nep-beo-cach-dieu-5.jpg.webp",
-        images: [
-            "https://leika.vn/wp-content/uploads/2025/12/Ao-khoac-len-tui-op-bo-phoi-ke-1.jpg",
-            "https://leika.vn/wp-content/uploads/2025/12/Ao-khoac-len-det-hoa-tiet-coi-gia-1.jpg"
-        ]
-    },
-    {
-        id: "p24",
-        name: "Áo croptop nữ",
-        slug: "ao-croptop-nu",
-        description: "Áo croptop nữ trẻ trung, dễ phối cùng quần cạp cao hoặc chân váy.",
-        specs: [
-            "Chất liệu: Cotton pha spandex",
-            "Form: Fitted",
-            "Độ dài: Cropped",
-            "Chi tiết: Stretch mềm mại"
-        ],
-        categoryId: "c2",
-        thumbnail: "https://leika.vn/wp-content/uploads/2026/05/Ao-kieu-SN-croptop-op-la-theu-bode-10.jpg.webp",
-        images: [
-            "https://leika.vn/wp-content/uploads/2026/05/Ao-kieu-SN-croptop-op-la-theu-bode-6.jpg",
-            "https://leika.vn/wp-content/uploads/2026/05/Ao-kieu-SN-croptop-op-la-theu-bode-9.jpg"
-        ]
-    },
-    {
-        id: "p25",
-        name: "Đầm dự tiệc nữ",
-        slug: "dam-du-tiec-nu",
-        description: "Đầm dự tiệc nữ sang trọng, thiết kế tinh tế và phù hợp cho các buổi tiệc tối.",
-        specs: [
-            "Chất liệu: Satin pha polyester",
-            "Form: A-line",
-            "Độ dài: Dưới gối",
-            "Chi tiết: Dây kéo ẩn sau"
-        ],
-        categoryId: "c2",
-        thumbnail: "https://leika.vn/wp-content/uploads/2026/02/Dam-party-kem-ao-choang-3.jpg.webp",
-        images: [
-            "https://leika.vn/wp-content/uploads/2026/02/Dam-party-kem-ao-choang-1.jpg",
-            "https://leika.vn/wp-content/uploads/2026/02/Dam-party-kem-ao-choang-2.jpg"
         ]
     },
 
