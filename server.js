@@ -213,7 +213,13 @@ let products = [
         name: "Áo thun nam basic",
         hot: true,
         slug: "ao-thun-nam-basic",
-        description: "Áo thun nam chất liệu cotton 100%, mềm mại.",
+        description: "Áo thun nam chất liệu cotton 100%, mềm mại và thoáng khí, phù hợp cho mặc hàng ngày.",
+        specs: [
+            "Chất liệu: 100% cotton",
+            "Form áo: Regular fit",
+            "Kiểu cổ: Cổ tròn",
+            "Thấm hút tốt và không gây bí da"
+        ],
         categoryId: "c1",
         thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/d52d7e242fac6dae82288d9a793c0676/t/s/tsn253676._2.jpg",
         images: [
@@ -226,7 +232,13 @@ let products = [
         id: "p2",
         name: "Áo sơ mi nam",
         slug: "ao-so-mi-nam",
-        description: "Áo sơ mi nam lịch lãm.",
+        description: "Áo sơ mi nam lịch lãm, dễ dàng phối cùng quần âu hoặc quần jean cho phong cách công sở.",
+        specs: [
+            "Chất liệu: Cotton pha polyester",
+            "Form áo: Slim fit",
+            "Cổ áo: Cổ đứng",
+            "Dễ giặt và ít nhăn"
+        ],
         categoryId: "c1",
         thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/a/b/ab260047nt_1_1.jpg",
         images: [
@@ -239,6 +251,13 @@ let products = [
         id: "p3",
         name: "Quần jean nam",
         slug: "quan-jean-nam",
+        description: "Quần jean nam bền và co giãn nhẹ, phù hợp cho mọi hoạt động hàng ngày.",
+        specs: [
+            "Chất liệu: 98% cotton, 2% elastane",
+            "Form: Mid-rise, straight leg",
+            "Chi tiết: Co giãn nhẹ, bền màu",
+            "Bảo quản: Giặt máy ở nhiệt độ thấp"
+        ],
         categoryId: "c1",
         thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/q/j/qjt263077_1.jpg",
         images: [
@@ -251,6 +270,13 @@ let products = [
         id: "p4",
         name: "Áo len nam",
         slug: "ao-len-nam",
+        description: "Áo len nam giữ ấm nhẹ, phom dáng chuẩn và dễ phối cùng áo sơ mi hoặc áo thun.",
+        specs: [
+            "Chất liệu: Len pha acrylic",
+            "Form: Relaxed fit",
+            "Kiểu cổ: Cổ tròn",
+            "Phù hợp: Mùa thu đông"
+        ],
         categoryId: "c1",
         thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/a/l/ald231659-grm._90.jpg",
         images: [
@@ -263,6 +289,13 @@ let products = [
         id: "p5",
         name: "Áo Polo Classic Men",
         slug: "ao-polo-classic-men",
+        description: "Áo Polo nam cổ điển, chất liệu mềm mại và phom dáng thanh lịch cho mọi dịp.",
+        specs: [
+            "Chất liệu: Cotton pique",
+            "Form: Regular fit",
+            "Cổ áo: Polo có cúc",
+            "Dễ phối đồ và thoáng mát"
+        ],
         categoryId: "c1",
         thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/a/p/apv262040.jpg",
         images: [
@@ -277,6 +310,13 @@ let products = [
         name: "Áo thun nữ",
         hot: true,
         slug: "ao-thun-nu",
+        description: "Áo thun nữ mềm mại, ôm dáng nhẹ và thích hợp cho mùa hè.",
+        specs: [
+            "Chất liệu: Cotton modal",
+            "Form: Slim fit",
+            "Kiểu cổ: Cổ tròn",
+            "Mềm mại, thoáng khí"
+        ],
         categoryId: "c2",
         thumbnail: "https://sixdo.vn/images/products/2026/original/z7899593367776_0e1856e601d1026f563e1ba79fd61821-1780553880.jpg",
         images: [
@@ -289,6 +329,13 @@ let products = [
         id: "p7",
         name: "Váy mùa hè",
         slug: "vay-mua-he",
+        description: "Váy mùa hè nữ nhẹ nhàng, bồng bềnh và tạo cảm giác thoải mái khi mặc trong thời tiết nắng.",
+        specs: [
+            "Chất liệu: Rayon pha polyester",
+            "Form: A-line",
+            "Độ dài: Qua gối",
+            "Thích hợp: Mùa hè, dạo phố"
+        ],
         categoryId: "c2",
         thumbnail: "https://sixdo.vn/images/products/2026/original/vnq05054-copy-1780288431.jpg",
         images: [
@@ -301,6 +348,13 @@ let products = [
         id: "p8",
         name: "Áo sơ mi nữ",
         slug: "ao-so-mi-nu",
+        description: "Áo sơ mi nữ công sở thanh lịch, vải nhẹ và giữ form tốt.",
+        specs: [
+            "Chất liệu: Chiffon",
+            "Form: Relaxed fit",
+            "Kiểu cổ: Cổ đức",
+            "Dễ giặt, ít nhăn"
+        ],
         categoryId: "c2",
         thumbnail: "https://sixdo.vn/images/products/2026/large/_lb_5653-1778815403.jpg",
         images: [
@@ -313,6 +367,13 @@ let products = [
         id: "p9",
         name: "Quần áo dài",
         slug: "quan-ao-dai",
+        description: "Quần dài nữ dáng suông, phối hợp linh hoạt trong trang phục hàng ngày.",
+        specs: [
+            "Chất liệu: Polyester pha cotton",
+            "Form: Wide leg",
+            "Cạp: Trung bình",
+            "Phù hợp: Công sở và hoạt động hằng ngày"
+        ],
         categoryId: "c2",
         thumbnail: "https://sixdo.vn/images/products/2025/original/vnq01371-sao-che%CC%81p-1765877816.jpg",
         images: [
@@ -325,6 +386,13 @@ let products = [
         id: "p10",
         name: "Váy Midi Elegant",
         slug: "vay-midi-elegant",
+        description: "Váy midi nữ thanh lịch, phù hợp cho dạo phố hoặc sự kiện nhẹ nhàng.",
+        specs: [
+            "Chất liệu: Crepe",
+            "Form: Bodycon nhẹ",
+            "Độ dài: Midi",
+            "Khóa kéo sau lưng"
+        ],
         categoryId: "c2",
         thumbnail: "https://sixdo.vn/images/products/2024/large/dsc05406-copy-1727239256.jpg",
         images: [
@@ -339,6 +407,13 @@ let products = [
         name: "Áo thun trẻ em",
         hot: true,
         slug: "ao-thun-tre-em",
+        description: "Áo thun trẻ em mềm mại, thoáng khí và an toàn cho làn da nhạy cảm của bé.",
+        specs: [
+            "Chất liệu: Cotton mềm",
+            "Form: Regular fit",
+            "Phong cách: In hình dễ thương",
+            "Dễ giặt và nhanh khô"
+        ],
         categoryId: "c3",
         thumbnail: "https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/483428/item/vngoods_61_483428_3x4.jpg?width=400",
         images: [
@@ -351,6 +426,13 @@ let products = [
         id: "p12",
         name: "Áo khoác trẻ em",
         slug: "ao-khoac-tre-em",
+        description: "Áo khoác trẻ em nhẹ và chống gió, bảo vệ bé trong tiết trời se lạnh.",
+        specs: [
+            "Chất liệu: Nylon chống gió",
+            "Lót: Polyester mềm",
+            "Kiểu: Có mũ",
+            "Phù hợp: Dạo chơi ngoài trời"
+        ],
         categoryId: "c3",
         thumbnail: "https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/488841/item/vngoods_01_488841_3x4.jpg?width=400",
         images: [
@@ -363,6 +445,13 @@ let products = [
         id: "p13",
         name: "Quần short trẻ em",
         slug: "quan-short-tre-em",
+        description: "Quần short trẻ em năng động, thiết kế co giãn và dễ vận động.",
+        specs: [
+            "Chất liệu: Cotton pha elastane",
+            "Cạp: Thun co giãn",
+            "Form: Suông rộng",
+            "Thích hợp: Hoạt động hàng ngày"
+        ],
         categoryId: "c3",
         thumbnail: "https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/487746/sub/vngoods_487746_sub11_3x4.jpg?width=400",
         images: [
@@ -375,6 +464,13 @@ let products = [
         id: "p14",
         name: "Váy bé gái",
         slug: "vay-be-gai",
+        description: "Váy bé gái dễ thương, thiết kế nhẹ nhàng và phù hợp cho các bé đi học hoặc đi chơi.",
+        specs: [
+            "Chất liệu: Chiffon lụa",
+            "Form: Xòe",
+            "Lót: Satin mềm",
+            "Chi tiết: Nơ hoặc ren"
+        ],
         categoryId: "c3",
         thumbnail: "https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/484924/item/vngoods_69_484924_3x4.jpg?width=400",
         images: [
@@ -388,6 +484,13 @@ let products = [
         name: "Áo UT MARIO Movie",
         hot: true,
         slug: "set-be-trai-summer",
+        description: "Áo UT trẻ em họa tiết Mario đáng yêu, phù hợp cho bé trai năng động.",
+        specs: [
+            "Chất liệu: Cotton jersey",
+            "Form: Regular fit",
+            "Kiểu dáng: Graphic print",
+            "Dễ giặt và bền màu"
+        ],
         categoryId: "c3",
         thumbnail: "https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/483707/sub/vngoods_483707_sub11_3x4.jpg?width=400",
         images: [
@@ -401,120 +504,180 @@ let products = [
         name: "Áo khoác bomber nam",
         slug: "ao-khoac-bomber-nam",
         description: "Áo khoác bomber nam mang phong cách trẻ trung và năng động. Chất liệu cao cấp giúp giữ ấm hiệu quả nhưng vẫn đảm bảo sự thoải mái khi vận động. Thiết kế hiện đại dễ phối với quần jean hoặc quần kaki. Phù hợp cho những buổi dạo phố hoặc đi làm.",
+        specs: [
+            "Chất liệu: Polyester cao cấp",
+            "Lót: Vải lót mềm",
+            "Kiểu: Zipper trước",
+            "Phù hợp: Dạo phố hoặc đi làm"
+        ],
         categoryId: "c1",
-        thumbnail: "https://source.unsplash.com/600x800/?mens,bomber,jacket",
+        thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/j/k/jk256181_1_copy.jpg",
         images: [
-            "https://source.unsplash.com/800x1000/?mens,bomber,jacket",
-            "https://source.unsplash.com/800x1000/?fashion,bomber,man"
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/j/k/jk256181_2_copy.jpg",
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/j/k/jk256181_3_copy.jpg"
         ]
     },
     {
         id: "p17",
         name: "Quần kaki nam",
         slug: "quan-kaki-nam",
-        description: "...",
+        description: "Quần kaki nam đơn giản, dễ phối và mang lại cảm giác thoải mái khi vận động.",
+        specs: [
+            "Chất liệu: Cotton twill",
+            "Form: Straight fit",
+            "Cạp: Trung bình",
+            "Chi tiết: Túi chéo tiện lợi"
+        ],
         categoryId: "c1",
-        thumbnail: "https://source.unsplash.com/600x800/?mens,chino,pants",
+        thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/q/k/qkr256107_3_copy_11zon.jpg",
         images: [
-            "https://source.unsplash.com/800x1000/?mens,kaki,pants",
-            "https://source.unsplash.com/800x1000/?mens,trousers"
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/q/k/qkr256107_4_copy_11zon.jpg",
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/q/k/qkr256107_1_copy_11zon.jpg"
         ]
     },
     {
         id: "p18",
-        name: "Áo hoodie nam",
-        slug: "ao-hoodie-nam",
-        description: "...",
+        name: "Áo ghi lê nam",
+        slug: "ao-gile-nam",
+        description: "Áo ghi lê nam ấm áp, thoải mái với mũ rút dây và túi trước tiện dụng.",
+        specs: [
+            "Chất liệu: Cotton fleece",
+            "Form: Regular fit",
+            "Kiểu: Có mũ, túi kangaroo",
+            "Thích hợp: Mặc hàng ngày và dạo phố"
+        ],
         categoryId: "c1",
-        thumbnail: "https://source.unsplash.com/600x800/?hoodie,men",
+        thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/a/l/ald241279_11zon.jpg",
         images: [
-            "https://source.unsplash.com/800x1000/?mens,hoodie",
-            "https://source.unsplash.com/800x1000/?streetwear,hoodie"
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/a/l/ald241279-gr._2.jpg",
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/a/l/ald241279-gr._3.jpg"
         ]
     },
     {
         id: "p19",
         name: "Quần short nam",
         slug: "quan-short-nam",
-        description: "...",
+        description: "Quần short nam nhẹ nhàng, thoáng mát, thích hợp cho các hoạt động ngoài trời và đi biển.",
+        specs: [
+            "Chất liệu: Cotton pha polyester",
+            "Form: Regular fit",
+            "Tính năng: Thấm hút mồ hôi",
+            "Chi tiết: Túi hai bên"
+        ],
         categoryId: "c1",
-        thumbnail: "https://source.unsplash.com/600x800/?mens,shorts",
+        thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/s/t/st261018.jpg",
         images: [
-            "https://source.unsplash.com/800x1000/?summer,shorts,men",
-            "https://source.unsplash.com/800x1000/?casual,shorts"
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/s/t/st261018-1.jpg",
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/64b6969b5a751e6599b1523a4893116c/s/t/st261018.4.jpg"
         ]
     },
     {
         id: "p20",
-        name: "Áo gile nam",
-        slug: "ao-gile-nam",
-        description: "...",
+        name: "Áo blazer nam",
+        slug: "ao-blazer-nam",
+        description: "Áo blazer nam phom chuẩn, giúp tạo vẻ ngoài thanh lịch cho công sở hoặc dạo phố.",
+        specs: [
+            "Chất liệu: Vải dệt cao cấp",
+            "Form: Slim fit",
+            "Kiểu: Không tay, cúc trước",
+            "Chi tiết: Túi dọc tinh tế"
+        ],
         categoryId: "c1",
-        thumbnail: "https://source.unsplash.com/600x800/?mens,vest",
+        thumbnail: "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/b/l/blr2561152_11zon.jpg",
         images: [
-            "https://source.unsplash.com/800x1000/?formal,vest,man",
-            "https://source.unsplash.com/800x1000/?fashion,vest"
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/b/l/blr2561151_11zon.jpg",
+            "https://owen.cdn.vccloud.vn/media/catalog/product/cache/01755127bd64f5dde3182fd2f139143a/b/l/blr2561154_11zon.jpg"
         ]
     },
 
     {
         id: "p21",
-        name: "Chân váy công sở",
-        slug: "chan-vay-cong-so",
-        description: "...",
+        name: "Chân váy xòe",
+        slug: "chan-vay-xoe",
+        description: "Chân váy xòe dáng bút chì, tôn dáng và phù hợp với môi trường làm việc chuyên nghiệp.",
+        specs: [
+            "Chất liệu: Polyester pha elastane",
+            "Form: Pencil skirt",
+            "Độ dài: Qua gối",
+            "Chi tiết: Dây kéo sau lưng"
+        ],
         categoryId: "c2",
-        thumbnail: "https://source.unsplash.com/600x800/?office,skirt,women",
+        thumbnail: "https://leika.vn/wp-content/uploads/2026/05/Chan-vay-xoe-ly-lech-bong-eo-dinh-cuc-5.jpg.webp",
         images: [
-            "https://source.unsplash.com/800x1000/?women,skirt",
-            "https://source.unsplash.com/800x1000/?fashion,office,woman"
+            "https://leika.vn/wp-content/uploads/2026/05/Chan-vay-xoe-ly-lech-bong-eo-dinh-cuc-2.jpg",
+            "https://leika.vn/wp-content/uploads/2026/05/Chan-vay-xoe-ly-lech-bong-eo-dinh-cuc-5.jpg"
         ]
     },
     {
         id: "p22",
-        name: "Áo blazer nữ",
-        slug: "ao-blazer-nu",
-        description: "...",
+        name: "Áo crop top nữ",
+        slug: "ao-croptop-nu",
+        description: "Áo crop top nữ trẻ trung, dễ phối cùng quần cạp cao hoặc chân váy.",
+        specs: [
+            "Chất liệu: Rayon pha polyester",
+            "Form: Tailored fit",
+            "Kiểu: Hai hàng cúc",
+            "Chi tiết: Túi giả thời trang"
+        ],
         categoryId: "c2",
-        thumbnail: "https://source.unsplash.com/600x800/?women,blazer",
+        thumbnail: "https://leika.vn/wp-content/uploads/2026/05/Ao-kieu-CT-croptop-2-hang-cuc-TT-4.jpg.webp",
         images: [
-            "https://source.unsplash.com/800x1000/?blazer,woman",
-            "https://source.unsplash.com/800x1000/?office,blazer"
+            "https://leika.vn/wp-content/uploads/2026/05/Ao-kieu-CT-croptop-2-hang-cuc-TT-2.jpg",
+            "https://leika.vn/wp-content/uploads/2026/05/Ao-kieu-CT-croptop-2-hang-cuc-TT-4.jpg"
         ]
     },
     {
         id: "p23",
         name: "Quần jean nữ",
         slug: "quan-jean-nu",
-        description: "...",
+        description: "Quần jean nữ co giãn tốt, mang lại sự thoải mái và tôn dáng cho nhiều loại trang phục.",
+        specs: [
+            "Chất liệu: Denim co giãn",
+            "Form: Slim fit",
+            "Cạp: Trung bình",
+            "Chi tiết: Túi jean truyền thống"
+        ],
         categoryId: "c2",
-        thumbnail: "https://source.unsplash.com/600x800/?women,jeans",
+        thumbnail: "https://leika.vn/wp-content/uploads/2026/02/So-mi-DT-nep-beo-cach-dieu-5.jpg.webp",
         images: [
-            "https://source.unsplash.com/800x1000/?denim,woman",
-            "https://source.unsplash.com/800x1000/?jeans,fashion,women"
+            "https://leika.vn/wp-content/uploads/2025/12/Ao-khoac-len-tui-op-bo-phoi-ke-1.jpg",
+            "https://leika.vn/wp-content/uploads/2025/12/Ao-khoac-len-det-hoa-tiet-coi-gia-1.jpg"
         ]
     },
     {
         id: "p24",
         name: "Áo croptop nữ",
         slug: "ao-croptop-nu",
-        description: "...",
+        description: "Áo croptop nữ trẻ trung, dễ phối cùng quần cạp cao hoặc chân váy.",
+        specs: [
+            "Chất liệu: Cotton pha spandex",
+            "Form: Fitted",
+            "Độ dài: Cropped",
+            "Chi tiết: Stretch mềm mại"
+        ],
         categoryId: "c2",
-        thumbnail: "https://source.unsplash.com/600x800/?crop-top,women",
+        thumbnail: "https://leika.vn/wp-content/uploads/2026/05/Ao-kieu-SN-croptop-op-la-theu-bode-10.jpg.webp",
         images: [
-            "https://source.unsplash.com/800x1000/?croptop,fashion",
-            "https://source.unsplash.com/800x1000/?summer,women,fashion"
+            "https://leika.vn/wp-content/uploads/2026/05/Ao-kieu-SN-croptop-op-la-theu-bode-6.jpg",
+            "https://leika.vn/wp-content/uploads/2026/05/Ao-kieu-SN-croptop-op-la-theu-bode-9.jpg"
         ]
     },
     {
         id: "p25",
         name: "Đầm dự tiệc nữ",
         slug: "dam-du-tiec-nu",
-        description: "...",
+        description: "Đầm dự tiệc nữ sang trọng, thiết kế tinh tế và phù hợp cho các buổi tiệc tối.",
+        specs: [
+            "Chất liệu: Satin pha polyester",
+            "Form: A-line",
+            "Độ dài: Dưới gối",
+            "Chi tiết: Dây kéo ẩn sau"
+        ],
         categoryId: "c2",
-        thumbnail: "https://source.unsplash.com/600x800/?party,dress,women",
+        thumbnail: "https://leika.vn/wp-content/uploads/2026/02/Dam-party-kem-ao-choang-3.jpg.webp",
         images: [
-            "https://source.unsplash.com/800x1000/?elegant,dress",
-            "https://source.unsplash.com/800x1000/?evening,gown"
+            "https://leika.vn/wp-content/uploads/2026/02/Dam-party-kem-ao-choang-1.jpg",
+            "https://leika.vn/wp-content/uploads/2026/02/Dam-party-kem-ao-choang-2.jpg"
         ]
     },
 
@@ -522,7 +685,13 @@ let products = [
         id: "p26",
         name: "Bộ đồ thể thao trẻ em",
         slug: "bo-do-the-thao-tre-em",
-        description: "...",
+        description: "Bộ đồ thể thao trẻ em thoáng mát, linh hoạt và dễ dàng di chuyển khi chơi thể thao.",
+        specs: [
+            "Chất liệu: Polyester thoáng khí",
+            "Form: Thoải mái",
+            "Tính năng: Khô nhanh",
+            "Chi tiết: Cạp thun co giãn"
+        ],
         categoryId: "c3",
         thumbnail: "https://source.unsplash.com/600x800/?kids,sportswear",
         images: [
@@ -534,48 +703,72 @@ let products = [
         id: "p27",
         name: "Quần jean trẻ em",
         slug: "quan-jean-tre-em",
-        description: "...",
+        description: "Quần jean trẻ em bền bỉ, co giãn nhẹ và dễ phối đồ cho các bé khi đi học hoặc đi chơi.",
+        specs: [
+            "Chất liệu: Denim co giãn",
+            "Form: Straight fit",
+            "Cạp: Thun tiện lợi",
+            "Chi tiết: Gia cố tại đầu gối"
+        ],
         categoryId: "c3",
-        thumbnail: "https://source.unsplash.com/600x800/?kids,jeans",
+        thumbnail: "https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/475770/item/vngoods_62_475770_3x4.jpg",
         images: [
-            "https://source.unsplash.com/800x1000/?children,denim",
-            "https://source.unsplash.com/800x1000/?kids,fashion"
+            "https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/475770/sub/vngoods_475770_sub3_3x4.jpg",
+            "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/475770/sub/goods_475770_sub15_3x4.jpg"
         ]
     },
     {
         id: "p28",
         name: "Áo sơ mi trẻ em",
         slug: "ao-so-mi-tre-em",
-        description: "...",
+        description: "Áo sơ mi trẻ em phong cách lịch sự, phù hợp cho các bé mặc đến trường hoặc dự sự kiện gia đình.",
+        specs: [
+            "Chất liệu: Cotton poplin",
+            "Form: Regular fit",
+            "Kiểu cổ: Cổ đức",
+            "Dễ giặt và thoáng khí"
+        ],
         categoryId: "c3",
-        thumbnail: "https://source.unsplash.com/600x800/?kids,shirt",
+        thumbnail: "https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/483436/item/vngoods_00_483436_3x4.jpg?width=400",
         images: [
-            "https://source.unsplash.com/800x1000/?children,shirt",
-            "https://source.unsplash.com/800x1000/?kids,formal"
+            "https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/483436/sub/vngoods_483436_sub3_3x4.jpg?width=400",
+            "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/483436/sub/goods_483436_sub14_3x4.jpg?width=400"
         ]
     },
     {
         id: "p29",
         name: "Váy công chúa bé gái",
         slug: "vay-cong-chua-be-gai",
-        description: "...",
+        description: "Váy công chúa bé gái xinh xắn, với nhiều lớp vải bồng bềnh và chi tiết ren tinh tế.",
+        specs: [
+            "Chất liệu: Chiffon + voan",
+            "Form: Xòe",
+            "Chi tiết: Ren và nơ",
+            "Lót: Cotton mềm"
+        ],
         categoryId: "c3",
-        thumbnail: "https://source.unsplash.com/600x800/?girl,dress",
+        thumbnail: "https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/489063/item/vngoods_01_489063_3x4.jpg?width=400",
         images: [
-            "https://source.unsplash.com/800x1000/?princess,dress",
-            "https://source.unsplash.com/800x1000/?little,girl,dress"
+            "https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/489063/sub/vngoods_489063_sub3_3x4.jpg?width=400",
+            "https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/489063/sub/vngoods_489063_sub4_3x4.jpg?width=400"
         ]
     },
     {
         id: "p30",
         name: "Áo khoác gió trẻ em",
         slug: "ao-khoac-gio-tre-em",
-        description: "...",
+        description: "Áo khoác gió trẻ em nhẹ nhàng, chống gió và phù hợp cho bé khi đi học và vui chơi ngoài trời.",
+        specs: [
+            "Chất liệu: Polyester chống gió",
+            "Kiểu: Có mũ",
+            "Tính năng: Chống thấm nhẹ",
+            "Phù hợp: Dạo phố và đi học"
+        ],
         categoryId: "c3",
-        thumbnail: "https://source.unsplash.com/600x800/?kids,jacket",
+        thumbnail: "https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/483443/item/vngoods_03_483443_3x4.jpg?width=400",
         images: [
-            "https://source.unsplash.com/800x1000/?children,jacket",
-            "https://source.unsplash.com/800x1000/?kids,windbreaker"
+            "https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/483443/sub/vngoods_483443_sub3_3x4.jpg?width=400",
+            "https://image.uniqlo.com/UQ/ST3/vn/imagesgoods/483443/sub/vngoods_483443_sub4_3x4.jpg?width=400"
         ]
     }
 ];
